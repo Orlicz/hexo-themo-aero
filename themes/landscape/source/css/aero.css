@@ -9,7 +9,7 @@ body {
 }
 
 #main::before {
-    z-index: -1;
+    z-index: -3;
     content: '';
     position: fixed;
     width: 48vh;
@@ -26,7 +26,7 @@ body {
 }
 
 #main::after {
-    z-index: -1;
+    z-index: -3;
     content: '';
     position: fixed;
     width: 42vh;
