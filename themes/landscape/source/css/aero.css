@@ -16,7 +16,7 @@ body::before {
     display: flex;
     z-index: -1;
     content: '';
-    position: absolute;
+    position: fixed;
     width: 48vh;
     height: 48vh;
     background: linear-gradient(#ffc107, #e91e63);
@@ -30,7 +30,7 @@ body::after {
     display: flex;
     z-index: -1;
     content: '';
-    position: absolute;
+    position: fixed;
     width: 42vh;
     height: 42vh;
     background: linear-gradient(#2196f3, #31ff38);
