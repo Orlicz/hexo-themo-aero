@@ -52,8 +52,8 @@ body {
     margin: 10px;
     box-sizing: border-box;
     position: relative;
-    min-width: 350px;
-    min-height: 400px;
+    /*min-width: 350px;
+    min-height: 400px;*/
     background: rgba(255, 255, 255, 0.1);
     box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.5);
