@@ -8,7 +8,7 @@ body {
     justify-content: center;
 }
 
-#wrap::before {
+#main::before {
     z-index: -1;
     content: '';
     position: fixed;
@@ -21,7 +21,7 @@ body {
     animation: pulse 1.5s infinite;
 }
 
-#wrap::after {
+#main::after {
     z-index: -1;
     content: '';
     position: fixed;
