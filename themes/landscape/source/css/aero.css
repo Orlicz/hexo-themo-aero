@@ -4,6 +4,7 @@ body {
 }
 
 body {
+    display: flex;
     position: relative;
     width: 100%;
     height: 100%;
@@ -13,7 +14,6 @@ body {
 }
 
 body::before {
-    display: flex;
     z-index: -1;
     content: '';
     position: fixed;
@@ -27,7 +27,6 @@ body::before {
 }
 
 body::after {
-    display: flex;
     z-index: -1;
     content: '';
     position: fixed;
