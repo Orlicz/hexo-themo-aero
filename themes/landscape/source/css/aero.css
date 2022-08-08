@@ -110,6 +110,7 @@ body {
 .aero-box pre{
     transition: box-shadow .2s ease-in-out;
     border-radius: 4px;
+    margin-inline: 2px;
 }
 .aero-box pre:hover{
     box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
