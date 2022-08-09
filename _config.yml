@@ -7,13 +7,16 @@ title: Hexo
 subtitle:
 description:
 keywords:
-author: John Doe
-language:
+author: Orlicz
+language: zh-CN
 timezone:
 
+auto_excerpt:
+  enable: true
+  length: 50
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://hexaero.orlicz.top
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
