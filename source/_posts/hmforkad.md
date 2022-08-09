@@ -1,5 +1,6 @@
 ---
 title: 什么才是操作系统
+excerpt: 关于操作系统与测试
 categories:
   - system
   - 月光之谈
@@ -7,6 +8,7 @@ comments: true
 tags: 
   - system
   - notalkstateaffairs
+  - test
 keywords: 'notalkstateaffairs,java'
 ---
 

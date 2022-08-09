@@ -1,5 +1,6 @@
 ---
 title: Welcome
+excerpt: 简介
 tags:
 - test
 - tag
