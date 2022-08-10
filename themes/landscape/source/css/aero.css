@@ -23,6 +23,7 @@ body {
 
 #main{
     display: flex;
+    flex-flow: column wrap;
 }
 
 #main::after {
@@ -136,4 +137,12 @@ body {
 .aero-box a:hover::before {
     transform: scaleX(1);
     transform-origin: left;
+}
+
+/* 强制使内容块分列 防止内容错位偏移 */
+.item-mid-line {
+  flex-basis: 100%;
+  height: 100%;
+  width: 0;
+  order: 1;
 }

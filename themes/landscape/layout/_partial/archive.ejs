@@ -2,6 +2,7 @@
   <% page.posts.each(function(post){ %>
     <%- partial('article', {post: post, index: true}) %>
   <% }) %>
+  <span class="item-mid-line"></span>
 <% } else { %>
   <% var last; %>
   <% page.posts.each(function(post, i){ %>

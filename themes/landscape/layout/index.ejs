@@ -1,6 +1,23 @@
 <style>
-    .article{
+    .article {
         width: 30vw;
+        height: 100%;
+    }
+    .article:nth-of-type(2n+1) {
+        order: 1;
+    }
+    .article:nth-of-type(2n) {
+        order: 2;
     }
 </style>
 <%- partial('_partial/archive', {pagination: 2, index: true}) %>
+<script>
+    var postlist = document.getElementsByTagName('article');
+    var lfth=0;
+    var rith=0;
+    for(i = 0; i < postlist.length; i++){
+        if(i%2) lfth = (+lfth)+(+postlist[i].scrollHeight)+(+100);
+        else rith = (+rith)+(+postlist[i].scrollHeight)+(+100);
+    }
+    document.getElementById("main").style.height = Math.max(rith,lfth)+"px";
+</script>
