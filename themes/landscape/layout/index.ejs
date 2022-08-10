@@ -1,7 +1,6 @@
 <style>
     .article {
-        width: 30vw;
-        height: 100%;
+        width: 48%;
     }
     .article:nth-of-type(2n+1) {
         order: 1;
@@ -13,8 +12,8 @@
 <%- partial('_partial/archive', {pagination: 2, index: true}) %>
 <script>
     var postlist = document.getElementsByTagName('article');
-    var lfth=0;
-    var rith=0;
+    var lfth=10;
+    var rith=10;
     for(i = 0; i < postlist.length; i++){
         if(i%2) lfth = (+lfth)+(+postlist[i].scrollHeight)+(+100);
         else rith = (+rith)+(+postlist[i].scrollHeight)+(+100);
