@@ -64,10 +64,11 @@ body {
     z-index: 10;
     padding: 20px;
     backdrop-filter: blur(25px);
-    transition: box-shadow .2s ease-in-out;
+    transition: box-shadow,backdrop-filter .2s ease-in-out;
 }
 .aero-box:hover{
-    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.2);
+    box-shadow: 30px 40px 60px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
 }
 .aero-box h2,.aero-box h1,.article-title {
     transition: letter-spacing .4s ease-in;
