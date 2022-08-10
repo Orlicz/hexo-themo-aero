@@ -69,12 +69,13 @@ body {
 .aero-box:hover{
     box-shadow: 0 40px 60px rgba(0, 0, 0, 0.2);
 }
-.aero-box h2 {
+.aero-box h2,.article-title {
     transition: letter-spacing .4s ease-in;
 }
-.aero-box h2:hover{
+.aero-box h2,.article-title:hover{
     letter-spacing: 2px;
 }
+
 
 .aero-box .aero-rank {
     margin: 0;
