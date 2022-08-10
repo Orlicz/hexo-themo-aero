@@ -5,6 +5,9 @@ menu:
 rss: /atom.xml
 
 # Content
+auto_excerpt:
+  enable: true
+  length: 50
 excerpt_link: 
 fancybox: true
 
@@ -16,9 +19,6 @@ widgets:
 - tagcloud
 - archive
 - recent_posts
-auto_excerpt:
-  enable: true
-  length: 50
 # display widgets at the bottom of index pages (pagination == 2)
 index_widgets:
 # - category
