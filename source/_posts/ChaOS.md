@@ -1,5 +1,6 @@
 ---
 title: ChaOS
+date: 2022-08-10
 categories:
   - system
   - ChaOS
